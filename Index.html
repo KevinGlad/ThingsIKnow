@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<HTML>
+<BODY>
+<p id="42" style="color: red">Hello World!</p>
+<p style="color: blue">Hello World!</p>
+<button type="button" onclick="changeColor()">Change Color</button>
+<script>
+function changeColor() {
+
+  let obj = document.getElementById("42")
+  obj.style.color = "green"
+
+var btn = document.createElement("BUTTON");   // Create a <button> element
+btn.innerHTML = "CLICK ME";                   // Insert text
+document.body.appendChild(btn);
+
+}
+</script>
+</BODY>
+</HTML>
